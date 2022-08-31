@@ -1,0 +1,122 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+.container {
+    max-width: 1600px;
+    color: #09502f;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.top_text {
+    margin-top: 24px;
+    font-size: 24px;
+}
+.top-subtext {
+    font-size: 18px;
+    font-style: italic;
+}
+.main_forms {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+
+}
+.plan {
+    flex: 1 1 100%;
+    text-align: center;
+    background-color: #f6fdfe;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #eaf2fa;
+    display: inline-block;
+    
+}
+
+.free_form {
+    color: rgb(87, 142, 6);
+}
+
+.pro_form {
+    color: rgb(0, 81, 255);
+}
+
+.premium_form {
+    color: orange;
+}
+
+.form_title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.buy-section {
+    background-color: white;
+    margin: 0.5rem;
+    padding: 0.5rem 0.5rem 0.75rem;
+    border: 1px solid #eaf2fa;
+    border-radius: 8px;
+}
+
+.plan_value {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.buy_btn {
+    margin: 0.5rem auto;
+    border: 0;
+    width: 250px;
+    background: grey;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+.button_container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.free-btn {
+    background: rgb(87, 142, 6);
+    font-weight: bold;
+}
+
+.pro-btn {
+    background: rgb(0, 81, 255);
+    font-weight: bold;
+}
+
+.premium-btn {
+    background: orange;
+    font-weight: bold;
+}
+
+.compare_btn {
+    background: #eaf2fa;
+    color: #09502f;
+}
+
+.list-menu {
+    text-align: left;
+    margin: 1rem 1rem 0;
+    line-height: 1.5;
+}
+
+.list_menu-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
